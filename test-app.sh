@@ -2,7 +2,7 @@
 
 
 # get content of url 
-content=$(curl -L http://0.0.0.0:5050)
+content=$(curl -L http://172.17.0.1:5050)
 if [[ $content == *"Sample app"* ]]
 then
   exit 0
